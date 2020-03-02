@@ -1,0 +1,132 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  /* margin-bottom: 1vh; */
+}
+
+body > .mainContainer, .bottomContainer, .subtitle {
+  font-family: 'Alfa Slab One';
+  color: #ad9a4c;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  transform: scale(1, 1.5);
+}
+
+* {
+  text-align: center;
+}
+
+.header {
+  font-family: 'Work Sans';
+  font-weight: 800;
+  font-size: 2.4vw;
+  /* font-size: 150%; */
+  letter-spacing: .25em;
+  color: white;
+  background-color: red;
+  margin-top: 5vh;
+  background-size: 150vw;
+}
+
+.mainContainer {
+  /* border: solid white 2px; */
+  line-height: 1%;
+  margin-top: -25px;
+}
+
+.title {
+  /* border: solid white 2px; */
+  display: flex;
+  position: relative;
+  justify-content: center;
+  letter-spacing: .02em;
+  /* font-size: 11em; */
+  font-size: 17vw;
+}
+
+/* ###LIGATURES FOR TITLE### */
+.ligatures {
+  display: flex;
+  flex-direction: row;
+  letter-spacing: -0.03em;
+}
+.UM-ligature {
+  letter-spacing: -.05em;
+  margin-left: -0.05em;
+}
+.P-ligature {
+  padding-left: 0.06em;
+}
+/* ###LIGATURES FOR TITLE### */
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* border: solid white 2px; */
+  font-size: 4.6vw;
+  line-height: 1%;
+  margin-top: -80px;
+  transform: scale(1.212, 1.5);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .portrait {
+  border: solid #ad9a4c 10px;
+  z-index: 99;
+} */
+
+.portrait img {
+  width: 69%;
+  border: solid #ad9a4c 13px;
+  z-index: 99;
+}
+
+.bottomContainer {
+  margin-top: 100px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  margin-top: 25px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  color: white;
+  transform: scale(1, .82);
+  font-size: 2.6vw;
+}
+
+.authors {
+  position: relative;
+  margin-top: -9vh;
+  font-size: 2.97vw;
+}
+
+/* .whiteText {
+  position: absolute;
+  color: white;
+  font-family: 'Work Sans';
+  top: 86%;
+  left: 10%;
+  margin: 50%;
+}
+
+.promoSticker img {
+  position: absolute;
+  width: 45%;
+  border: none;
+  bottom: 16px;
+  left: 16px;
+} */
